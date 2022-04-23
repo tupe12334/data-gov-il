@@ -1,0 +1,33 @@
+{
+  "name": "data-gov-il",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prebuild": "rimraf lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tupe12334/data-gov-il.git"
+  },
+  "keywords": [
+    "gov",
+    "Israel",
+    "gov-il",
+    "sdk"
+  ],
+  "author": "tupe12334",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tupe12334/data-gov-il/issues"
+  },
+  "homepage": "https://github.com/tupe12334/data-gov-il#readme",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "ckan": "0.2.3"
+  }
+}
